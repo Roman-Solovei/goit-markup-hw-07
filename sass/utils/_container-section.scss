@@ -11,20 +11,27 @@
 }
 
 .section--padding {
-  @extend .section;
+  // @extend .section;
 
   padding-top: 0;
 }
 
 .section--background {
-  @extend .section;
+  // @extend .section;
 
   background-color: $secondary-color;
 }
 
 .container--baseline {
-  @extend .container;
+  // @extend .container;
 
   display: flex;
   align-items: baseline;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
 }
