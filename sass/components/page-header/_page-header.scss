@@ -2,13 +2,13 @@
   border-bottom: 1px solid $header-border-color;
 }
 
-.header__container {
-  @extend .container;
+// .header__container {
+//   @extend .container;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
 
 .main-nav {
   display: flex;
@@ -33,16 +33,14 @@
 
   &--current {
     color: $accent-color;
-    padding-top: 32px;
-    padding-bottom: 32px;
     position: relative;
 
     &::after {
       content: " ";
       position: absolute;
-      left: 0;
-      bottom: -1px;
       display: block;
+      left: 0;
+      bottom: 0px;
       width: 100%;
       height: 4px;
       background-color: $accent-color;

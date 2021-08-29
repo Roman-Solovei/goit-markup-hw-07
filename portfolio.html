@@ -16,18 +16,17 @@
     <header class="header">
             <div class="header__container">
                 <nav class="main-nav">
-                    <a href="#" lang="en" class="logo">
-                        <span class="logo__web">Web</span><span class="logo__studio">Studio</span>
+                    <a class="logo" href="#" lang="en" >Web<span class="logo__studio">Studio</span>
                     </a>
                     <ul class="site-nav">
-                        <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студия</a></li>
-                        <li class="site-nav__item"><a href="#" class="site-nav__link--current">Портфолио</a></li>
-                        <li class="site-nav__item"><a href="#" class="site-nav__link">Контакты</a></li>
+                        <li class="site-nav__item"><a class="site-nav__link" href="./index.html" >Студия</a></li>
+                        <li class="site-nav__item"><a class="site-nav__link site-nav__link--current" href="#" >Портфолио</a></li>
+                        <li class="site-nav__item"><a class="site-nav__link" href="#" >Контакты</a></li>
                     </ul>
                 </nav>
                     <ul class="contacts">
                         <li class="contacts__item">
-                            <a href="mailto:info@devstudio.com" lang="en" class="contacts__link"
+                            <a class="contacts__link" href="mailto:info@devstudio.com" lang="en" 
                                 style="display: flex; align-items: center;">
                                 <svg class="contacts__icon" width="16" height="12">
                                     <use href="./images/icons.svg#icon-envelope"></use>
@@ -36,7 +35,7 @@
                             </a>
                         </li>
                         <li class="contacts__item">
-                            <a href="tel:+380961111111" class="contacts__link"
+                            <a class="contacts__link" href="tel:+380961111111" 
                                 style="display: flex; align-items: center;">
                                 <svg class="contacts__icon" width="10" height="16">
                                     <use href="./images/icons.svg#icon-smartphone"></use>
@@ -50,18 +49,19 @@
 
     <main>
         <section class="section">
+            <h1 style="display: none;"> Портфолио </h1>
             <div class="container">
                 <ul class="filter">
-                    <li class="filter__item"><button type="button" class="portfolio__btn">Все</button></li>
-                    <li class="filter__item"><button type="button" class="portfolio__btn">Веб-сайты</button></li>
-                    <li class="filter__item"><button type="button" class="portfolio__btn">Приложения</button></li>
-                    <li class="filter__item"><button type="button" class="portfolio__btn">Дизайн</button></li>
-                    <li class="filter__item"><button type="button" class="portfolio__btn">Маркетинг</button></li>
+                    <li class="filter__item"><button type="button" class="filter__btn">Все</button></li>
+                    <li class="filter__item"><button type="button" class="filter__btn">Веб-сайты</button></li>
+                    <li class="filter__item"><button type="button" class="filter__btn">Приложения</button></li>
+                    <li class="filter__item"><button type="button" class="filter__btn">Дизайн</button></li>
+                    <li class="filter__item"><button type="button" class="filter__btn">Маркетинг</button></li>
                 </ul>
 
                 <ul class="gallery">
                     <li class="gallery__item"> 
-                        <a href="#" class="card">
+                        <a class="card" href="#">
                             <div class="card__overlay">
                                 <img src="./images/Технокряк.jpg" alt="Технокряк" width="370">
                                 <div class="card__overlay-text">
@@ -71,14 +71,14 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="card__footer">
+                            <div class="card__box">
                                 <h2 class="card__title">Технокряк</h2>
-                                <p class="card__subtitile">Веб-сайт</p>
+                                <p class="card__text">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
                     <li class="gallery__item">
-                        <a href="#" class="card">
+                        <a class="card" href="#" >
                             <div class="card__overlay">
                                 <img src="./images/Постер_New_Orlean_vs_Golden_Star.jpg" alt="Постер New Orlean vs Golden Star" width="370">
                                 <div class="card__overlay-text">
@@ -89,14 +89,14 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="card__footer">
+                            <div class="card__box">
                                 <h2 class="card__title">Постер<span lang="en"> New Orlean vs Golden Star</span></h2>
-                                <p class="card__subtitile">Дизайн</p>
+                                <p class="card__text">Дизайн</p>
                             </div>
                         </a>
                     </li>
                     <li class="gallery__item">
-                        <a href="#" class="card">
+                        <a class="card" href="#" >
                             <div class="card__overlay">
                                 <img src="./images/Ресторан_Seafood.jpg" alt="Ресторан Seafood" width="370">
                                 <div class="card__overlay-text">
@@ -107,14 +107,14 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="card__footer">
+                            <div class="card__box">
                                 <h2 class="card__title">Ресторан<span lang="en"> Seafood</span></h2>
-                                <p class="card__subtitile">Приложение</p>
+                                <p class="card__text">Приложение</p>
                             </div>
                         </a>
                     </li>
                     <li class="gallery__item">
-                        <a href="#" class="card">
+                        <a class="card" href="#" >
                             <div class="card__overlay">
                                 <img src="./images/Проект_Prime.jpg" alt="Проект Prime" width="370">
                                 <div class="card__overlay-text">
@@ -125,14 +125,14 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="card__footer">
+                            <div class="card__box">
                                 <h2 class="card__title">Проект<span lang="en"> Prime</span></h2>
-                                <p class="card__subtitile">Маркетинг</p>                   
+                                <p class="card__text">Маркетинг</p>                   
                             </div>
                         </a>
                     </li>
                     <li class="gallery__item">
-                        <a href="#" class="card">
+                        <a class="card" href="#" >
                             <div class="card__overlay">
                                 <img src="./images/Проект_Boxes.jpg" alt="Проект Boxes" width="370">
                                 <div class="card__overlay-text">
@@ -143,14 +143,14 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="card__footer">
+                            <div class="card__box">
                                 <h2 class="card__title">Проект<span lang="en"> Boxes</span></h2>
-                                <p class="card__subtitile">Приложение</p>
+                                <p class="card__text">Приложение</p>
                             </div>
                         </a>
                     </li>
                     <li class="gallery__item">
-                        <a href="#" class="card">
+                        <a class="card" href="#" >
                             <div class="card__overlay">
                                 <img src="./images/Inspiration_has_no_Borders.jpg" alt="Inspiration has no Borders" width="370">
                                 <div class="card__overlay-text">
@@ -161,14 +161,14 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="card__footer">
+                            <div class="card__box">
                                 <h2 class="card__title">Inspiration has no Borders</h2>
-                                <p class="card__subtitile">Веб-сайт</p>
+                                <p class="card__text">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
                     <li class="gallery__item">
-                        <a href="#" class="card">
+                        <a class="card" href="#" >
                             <div class="card__overlay">
                                 <img src="./images/Издание_Limited_Edition.jpg" alt="Издание Limited Edition" width="370">
                                 <div class="card__overlay-text">
@@ -179,14 +179,14 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="card__footer">
+                            <div class="card__box">
                                 <h2 class="card__title">Издание<span lang="en"> Limited Edition</span></h2>
-                                <p class="card__subtitile">Дизайн</p>
+                                <p class="card__text">Дизайн</p>
                             </div>
                         </a>
                     </li>
                     <li class="gallery__item">
-                        <a href="#" class="card">
+                        <a class="card" href="#" >
                             <div class="card__overlay">
                                 <img src="./images/Проект_LAB.jpg" alt="Проект LAB" width="370">
                                 <div class="card__overlay-text">
@@ -197,14 +197,14 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="card__footer">
+                            <div class="card__box">
                                 <h2 class="card__title">Проект<span lang="en"> LAB</span></h2>
-                                <p class="card__subtitile">Маркетинг</p>
+                                <p class="card__text">Маркетинг</p>
                             </div>
                         </a>
                     </li>
                     <li class="gallery__item">
-                        <a href="#" class="card">
+                        <a class="card" href="#" >
                             <div class="card__overlay">
                                 <img src="./images/Growing_Business.jpg" alt="Growing Business" width="370">
                                 <div class="card__overlay-text">
@@ -215,9 +215,9 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="card__footer">
+                            <div class="card__box">
                                 <h2 class="card__title">Growing Business</h2>
-                                <p class="card__subtitile">Приложение</p>
+                                <p class="card__text">Приложение</p>
                             </div>
                         </a>
                     </li>
@@ -229,15 +229,14 @@
 <footer class="footer">
     <div class="container--baseline">
         <div>
-            <a href="#" lang="en" class="logo">
-                <span class="logo__web">Web</span><span class="logo__studio-white">Studio</span>
+            <a class="logo" href="#" lang="en" >Web<span class="logo__studio-white">Studio</span>
             </a>
             <address class="adress">
                 <ul>
                     <li><span class="address--white-text">г. Киев, пр-т Леси Украинки, 26</span></li>
-                    <li class="adress--margin"><a href="mailto:info@example.com"
-                            class="adress--color">info@example.com</a></li>
-                    <li class="adress--margin"><a href="tel:+380991111111" class="adress--color">+38 099 111 11 11</a>
+                    <li class="adress--margin"><a class="adress--color" href="mailto:info@example.com"
+                            >info@example.com</a></li>
+                    <li class="adress--margin"><a class="adress--color" href="tel:+380991111111" >+38 099 111 11 11</a>
                     </li>
                 </ul>
             </address>
@@ -248,7 +247,7 @@
             <div class="social">
                 <ul class="social__list">
                     <li class="social__item ">
-                        <a href="#" class="social__link social__link--background"
+                        <a class="social__link social__link--background" href="#" 
                             style="display: flex; align-items: center; justify-content: center;">
                             <svg class="social__icon--fill" width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram"></use>
@@ -256,8 +255,8 @@
                         </a>
                     </li>
                     <li class="social__item ">
-                        <a href="#" class="social__link 
-                            social__link--background"
+                        <a class="social__link 
+                            social__link--background" href="#" 
                             style="display: flex; align-items: center; justify-content: center;">
                             <svg class="social__icon--fill" width="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter"></use>
@@ -265,8 +264,8 @@
                         </a>
                     </li>
                     <li class="social__item">
-                        <a href="#" class="social__link 
-                            social__link--background"
+                        <a class="social__link 
+                            social__link--background" href="#" 
                             style="display: flex; align-items: center; justify-content: center;">
                             <svg class="social__icon--fill" width="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook"></use>
@@ -274,8 +273,8 @@
                         </a>
                     </li>
                     <li class="social__item">
-                        <a href="#" class="social__link 
-                            social__link--background"
+                        <a class="social__link 
+                            social__link--background" href="#" 
                             style="display: flex; align-items: center; justify-content: center;">
                             <svg class="social__icon--fill" width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin"></use>

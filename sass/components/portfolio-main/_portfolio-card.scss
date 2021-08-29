@@ -40,7 +40,7 @@
   }
 }
 
-.card__footer {
+.card__box {
   padding: 20px 24px;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -52,7 +52,7 @@
   font-size: 18px;
   line-height: 2;
 }
-.card__subtitile {
+.card__text {
   font-size: 16px;
   line-height: 1.87;
   color: $primary-text-color;
